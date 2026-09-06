@@ -12,7 +12,17 @@ I enjoy building full-stack AI applications using technologies such as Python, F
 
 I am continuously improving my problem-solving and development skills and looking for opportunities to learn, contribute, and build impactful technology.`,
 
-  skills: {
+education: [
+  {
+    degree: "B.Tech in Computer Science Engineering",
+    specialization: "AI Specialization",
+    university: "Bennett University",
+    expectedGraduation: "2028",
+    cgpa: "8.52/10",
+  },
+],
+
+skills: {
     Languages: ["C++", "Python", "SQL", "JavaScript", "TypeScript"],
 
     "AI / Machine Learning": [
@@ -122,6 +132,12 @@ function App() {
             >
               About
             </a>
+            <a
+                href="#education"
+                className="transition hover:text-sky-400"
+              >
+                Education
+              </a>
 
             <a
               href="#skills"
@@ -224,6 +240,55 @@ function App() {
             {data.about}
           </p>
         </section>
+
+        {/* ================= EDUCATION ================= */}
+<section
+  id="education"
+  className="border-y border-slate-800 bg-slate-900/30 py-24"
+>
+  <div className="mx-auto max-w-6xl px-6">
+
+    <p className="mb-3 text-sm font-bold tracking-[0.25em] text-sky-400">
+      EDUCATION
+    </p>
+
+    <h2 className="mb-12 text-4xl font-bold text-white">
+      Academic Background
+    </h2>
+
+    {data.education.map((education) => (
+      <div
+        key={education.degree}
+        className="rounded-2xl border border-slate-800 bg-slate-900 p-8"
+      >
+        <h3 className="text-2xl font-bold text-white">
+          {education.degree}
+        </h3>
+
+        <p className="mt-2 text-lg font-medium text-sky-400">
+          {education.specialization}
+        </p>
+
+        <p className="mt-4 text-lg text-slate-300">
+          {education.university}
+        </p>
+
+        <div className="mt-4 flex flex-wrap gap-4 text-slate-400">
+          <span>
+            Expected Graduation: {education.expectedGraduation}
+          </span>
+
+          <span className="hidden md:inline">|</span>
+
+          <span>
+            CGPA: {education.cgpa}
+          </span>
+        </div>
+      </div>
+    ))}
+
+  </div>
+</section>
 
         {/* ================= SKILLS ================= */}
         <section
