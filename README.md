@@ -1,16 +1,63 @@
-# React + Vite
+# Divakar Maurya — Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Clean, responsive personal portfolio website showcasing full-stack AI, computer vision, and machine learning engineering projects, technical skills, and educational background.
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This repository contains the source code for my personal portfolio. It is designed to provide recruiters and engineering teams with a concise, fast-loading, and responsive overview of my work in Full-Stack AI/ML and Software Engineering.
 
-## Expanding the Oxlint configuration
+### Key Sections:
+- **Hero & Identity:** Technical summary, background, and quick social links (LinkedIn, GitHub, LeetCode, Email).
+- **Education:** B.Tech in Computer Science Engineering (AI Specialization) at Bennett University (Expected 2028, CGPA: 8.52/10).
+- **Technical Skills:** Categorized inventory across Languages, AI/ML, Frameworks, Tools, and LLM interfaces.
+- **Featured Projects:** Deep links and summaries for anchor projects including CodePilot AI, FaceMate, and TrafficEye AI.
+- **Contact:** Direct communication links.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Linter:** Oxlint
+
+---
+
+## 🚀 Local Development Setup
+
+### 1. Prerequisites
+- Node.js (v18 or higher)
+- npm or pnpm
+
+### 2. Clone & Install
+```bash
+git clone https://github.com/div339175/my-portfolio.git
+cd my-portfolio
+npm install
+```
+
+### 3. Start Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### 4. Build for Production
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
